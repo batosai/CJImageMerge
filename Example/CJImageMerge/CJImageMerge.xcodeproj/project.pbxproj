@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F73A37D171C982B007FB85E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73A37C171C982B007FB85E /* UIKit.framework */; };
+		3F73A37F171C982B007FB85E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73A37E171C982B007FB85E /* Foundation.framework */; };
+		3F73A381171C982B007FB85E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73A380171C982B007FB85E /* CoreGraphics.framework */; };
+		3F73A387171C982C007FB85E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F73A385171C982C007FB85E /* InfoPlist.strings */; };
+		3F73A389171C982C007FB85E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F73A388171C982C007FB85E /* main.m */; };
+		3F73A38D171C982C007FB85E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F73A38C171C982C007FB85E /* AppDelegate.m */; };
+		3F73A38F171C982C007FB85E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F73A38E171C982C007FB85E /* Default.png */; };
+		3F73A391171C982C007FB85E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F73A390171C982C007FB85E /* Default@2x.png */; };
+		3F73A393171C982C007FB85E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F73A392171C982C007FB85E /* Default-568h@2x.png */; };
+		3F73A396171C982C007FB85E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F73A395171C982C007FB85E /* ViewController.m */; };
+		3F73A3A5171C99F8007FB85E /* apple-ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F73A3A3171C99F8007FB85E /* apple-ipad.jpg */; };
+		3F73A3A6171C99F8007FB85E /* simple-apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F73A3A4171C99F8007FB85E /* simple-apple.png */; };
+		3F73A3AA171C9A80007FB85E /* UIImage+CJImageMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F73A3A9171C9A80007FB85E /* UIImage+CJImageMerge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F73A379171C982B007FB85E /* CJImageMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJImageMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F73A37C171C982B007FB85E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F73A37E171C982B007FB85E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F73A380171C982B007FB85E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F73A384171C982C007FB85E /* CJImageMerge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CJImageMerge-Info.plist"; sourceTree = "<group>"; };
+		3F73A386171C982C007FB85E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F73A388171C982C007FB85E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F73A38A171C982C007FB85E /* CJImageMerge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CJImageMerge-Prefix.pch"; sourceTree = "<group>"; };
+		3F73A38B171C982C007FB85E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F73A38C171C982C007FB85E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F73A38E171C982C007FB85E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3F73A390171C982C007FB85E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F73A392171C982C007FB85E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F73A394171C982C007FB85E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F73A395171C982C007FB85E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F73A3A3171C99F8007FB85E /* apple-ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-ipad.jpg"; sourceTree = "<group>"; };
+		3F73A3A4171C99F8007FB85E /* simple-apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simple-apple.png"; sourceTree = "<group>"; };
+		3F73A3A8171C9A80007FB85E /* UIImage+CJImageMerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+CJImageMerge.h"; path = "../../../CJImageMerge/UIImage+CJImageMerge.h"; sourceTree = "<group>"; };
+		3F73A3A9171C9A80007FB85E /* UIImage+CJImageMerge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CJImageMerge.m"; path = "../../../CJImageMerge/UIImage+CJImageMerge.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F73A376171C982B007FB85E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F73A37D171C982B007FB85E /* UIKit.framework in Frameworks */,
+				3F73A37F171C982B007FB85E /* Foundation.framework in Frameworks */,
+				3F73A381171C982B007FB85E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F73A370171C982B007FB85E = {
+			isa = PBXGroup;
+			children = (
+				3F73A382171C982B007FB85E /* CJImageMerge */,
+				3F73A37B171C982B007FB85E /* Frameworks */,
+				3F73A37A171C982B007FB85E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F73A37A171C982B007FB85E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F73A379171C982B007FB85E /* CJImageMerge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F73A37B171C982B007FB85E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F73A37C171C982B007FB85E /* UIKit.framework */,
+				3F73A37E171C982B007FB85E /* Foundation.framework */,
+				3F73A380171C982B007FB85E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F73A382171C982B007FB85E /* CJImageMerge */ = {
+			isa = PBXGroup;
+			children = (
+				3F73A3A7171C9A20007FB85E /* Categories */,
+				3F73A3A2171C989B007FB85E /* Resources */,
+				3F73A38B171C982C007FB85E /* AppDelegate.h */,
+				3F73A38C171C982C007FB85E /* AppDelegate.m */,
+				3F73A394171C982C007FB85E /* ViewController.h */,
+				3F73A395171C982C007FB85E /* ViewController.m */,
+				3F73A383171C982B007FB85E /* Supporting Files */,
+			);
+			path = CJImageMerge;
+			sourceTree = "<group>";
+		};
+		3F73A383171C982B007FB85E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F73A384171C982C007FB85E /* CJImageMerge-Info.plist */,
+				3F73A385171C982C007FB85E /* InfoPlist.strings */,
+				3F73A388171C982C007FB85E /* main.m */,
+				3F73A38A171C982C007FB85E /* CJImageMerge-Prefix.pch */,
+				3F73A38E171C982C007FB85E /* Default.png */,
+				3F73A390171C982C007FB85E /* Default@2x.png */,
+				3F73A392171C982C007FB85E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F73A3A2171C989B007FB85E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F73A3A3171C99F8007FB85E /* apple-ipad.jpg */,
+				3F73A3A4171C99F8007FB85E /* simple-apple.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3F73A3A7171C9A20007FB85E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3F73A3A8171C9A80007FB85E /* UIImage+CJImageMerge.h */,
+				3F73A3A9171C9A80007FB85E /* UIImage+CJImageMerge.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F73A378171C982B007FB85E /* CJImageMerge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F73A39F171C982C007FB85E /* Build configuration list for PBXNativeTarget "CJImageMerge" */;
+			buildPhases = (
+				3F73A375171C982B007FB85E /* Sources */,
+				3F73A376171C982B007FB85E /* Frameworks */,
+				3F73A377171C982B007FB85E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJImageMerge;
+			productName = CJImageMerge;
+			productReference = 3F73A379171C982B007FB85E /* CJImageMerge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F73A371171C982B007FB85E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = chaufourier;
+			};
+			buildConfigurationList = 3F73A374171C982B007FB85E /* Build configuration list for PBXProject "CJImageMerge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F73A370171C982B007FB85E;
+			productRefGroup = 3F73A37A171C982B007FB85E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F73A378171C982B007FB85E /* CJImageMerge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F73A377171C982B007FB85E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F73A387171C982C007FB85E /* InfoPlist.strings in Resources */,
+				3F73A38F171C982C007FB85E /* Default.png in Resources */,
+				3F73A391171C982C007FB85E /* Default@2x.png in Resources */,
+				3F73A393171C982C007FB85E /* Default-568h@2x.png in Resources */,
+				3F73A3A5171C99F8007FB85E /* apple-ipad.jpg in Resources */,
+				3F73A3A6171C99F8007FB85E /* simple-apple.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F73A375171C982B007FB85E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F73A389171C982C007FB85E /* main.m in Sources */,
+				3F73A38D171C982C007FB85E /* AppDelegate.m in Sources */,
+				3F73A396171C982C007FB85E /* ViewController.m in Sources */,
+				3F73A3AA171C9A80007FB85E /* UIImage+CJImageMerge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F73A385171C982C007FB85E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F73A386171C982C007FB85E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F73A39D171C982C007FB85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F73A39E171C982C007FB85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F73A3A0171C982C007FB85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CJImageMerge/CJImageMerge-Prefix.pch";
+				INFOPLIST_FILE = "CJImageMerge/CJImageMerge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F73A3A1171C982C007FB85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CJImageMerge/CJImageMerge-Prefix.pch";
+				INFOPLIST_FILE = "CJImageMerge/CJImageMerge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F73A374171C982B007FB85E /* Build configuration list for PBXProject "CJImageMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F73A39D171C982C007FB85E /* Debug */,
+				3F73A39E171C982C007FB85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F73A39F171C982C007FB85E /* Build configuration list for PBXNativeTarget "CJImageMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F73A3A0171C982C007FB85E /* Debug */,
+				3F73A3A1171C982C007FB85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F73A371171C982B007FB85E /* Project object */;
+}
