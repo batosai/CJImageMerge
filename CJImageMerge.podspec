@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = 'CJImageMerge'
   s.frameworks   = 'UIKit'
+  s.requires_arc = true
 end
